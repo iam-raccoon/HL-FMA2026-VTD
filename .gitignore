@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.venv/
+*.log
+runs/*
+!runs/.gitignore
+runs_tr/
+runs_local/
+runs_live/
+routes/race.json
+routes/race_lane.json
+
+# 주최측 자료 — 공개본에 넣지 않는다
+map/*.xodr
+reference/vtd_*_models.txt
+routes/official_*.json
+routes/planned_v7*.json
+routes/planned_wp9*.json
+routes/lane_plan_v1_v6.json
+routes/lane_room_v1_v6.json
+docs/ref/lecture_*.txt
+docs/ref/organizer_qa.md
+docs/ref/route_example.csv
+routes/pretest/

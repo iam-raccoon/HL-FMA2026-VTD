@@ -1,0 +1,10 @@
+{
+  "name": "신호 지키기 (정지 후 출발)",
+  "ego_start": [0, 0, 0],
+  "ego_goal": [170, 0],
+  "speed_limit": 8.33,
+  "duration": 55,
+  "lights": [
+    {"id": 1, "stop_line_x": 100, "phases": [["GREEN", 6], ["YELLOW", 3], ["RED", 12]]}
+  ]
+}

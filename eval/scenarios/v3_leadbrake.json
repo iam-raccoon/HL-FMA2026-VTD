@@ -1,0 +1,10 @@
+{
+  "name": "v3 앞차 급정거",
+  "ego_start": [0,0,0], "ego_goal": [230,0], "speed_limit": 13.9, "duration": 40,
+  "actors": [
+    {"id":302,"type":"vehicle","size":[4.5,1.9,1.5],
+     "spawn":{"at_time":0},
+     "motion":{"kind":"lane","x0":45,"y0":0.0,"speed":5.56},
+     "events":[{"ego_within":25,"set_speed":0.0,"rate":8.0}]}
+  ]
+}

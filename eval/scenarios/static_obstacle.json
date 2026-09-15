@@ -1,0 +1,14 @@
+{
+  "name": "정지 장애물 (회피 필요 - 현재는 정지)",
+  "ego_start": [0, 0, 0],
+  "ego_goal": [200, 0],
+  "speed_limit": 8.33,
+  "duration": 40,
+  "actors": [
+    {
+      "id": 301, "type": "obstacle", "size": [2.0, 2.0, 1.5],
+      "spawn": {"at_time": 0},
+      "motion": {"kind": "static", "pos": [120, 0]}
+    }
+  ]
+}

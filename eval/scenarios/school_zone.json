@@ -1,0 +1,17 @@
+{
+  "name": "어린이보호구역",
+  "ego_start": [0, 0, 0],
+  "ego_goal": [200, 0],
+  "speed_limit": 8.33,
+  "duration": 55,
+  "zones": [
+    {"name": "어린이보호구역", "x_start": 60, "x_end": 140, "limit": 4.17}
+  ],
+  "actors": [
+    {
+      "id": 202, "type": "pedestrian", "size": [0.5, 0.5, 1.3],
+      "spawn": {"ego_x": 95},
+      "motion": {"kind": "crossing", "pos": [115, -3], "vel": [0.0, 0.8]}
+    }
+  ]
+}

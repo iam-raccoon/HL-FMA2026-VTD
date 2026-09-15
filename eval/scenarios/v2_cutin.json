@@ -1,0 +1,10 @@
+{
+  "name": "v2 끼어들기(컷인)",
+  "ego_start": [0,0,0], "ego_goal": [230,0], "speed_limit": 13.9, "duration": 40,
+  "actors": [
+    {"id":301,"type":"vehicle","size":[4.5,1.9,1.5],
+     "spawn":{"at_time":0},
+     "motion":{"kind":"lane","x0":55,"y0":-3.5,"speed":5.0},
+     "events":[{"ego_within":30,"lane_change":0.0,"lane_time":3.0,"set_speed":13.9,"rate":4.0}]}
+  ]
+}

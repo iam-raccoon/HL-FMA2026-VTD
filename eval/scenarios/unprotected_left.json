@@ -1,0 +1,15 @@
+{
+  "name": "비보호 좌회전 (대향차 양보) - 템플릿",
+  "ego_start": [0, 0, 0],
+  "ego_goal": [80, 60],
+  "speed_limit": 8.33,
+  "duration": 45,
+  "ego_route": [[0, 0], [68, 0], [78, 15], [80, 60]],
+  "actors": [
+    {
+      "id": 102, "type": "vehicle", "size": [4.8, 1.9, 1.5],
+      "spawn": {"at_time": 0},
+      "motion": {"kind": "constant", "pos": [200, 4], "vel": [-8.0, 0.0]}
+    }
+  ]
+}
