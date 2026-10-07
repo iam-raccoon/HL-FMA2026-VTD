@@ -59,7 +59,7 @@ cd ~/hlfma2026 && git pull
 - 제어PC 의 `~/hlfma2026` 은 2026-08-20 부터 git 클론이다. **무엇이 올라가 있는지 `git log` 로 확인**한다.
   그 전의 복사본 운용에서 생긴 문제는 [부록 A](99_dev_log.md).
 - 비공개 레포라 토큰이 필요하다. `git config --global credential.helper store` 후 한 번 `git clone` 하면서
-  사용자명 `iamracco0n` + 토큰을 넣으면 이후 자동이다.
+  사용자명 `iam-raccoon` + 토큰을 넣으면 이후 자동이다.
 
 ## 5.2 한 판 돌리기
 
